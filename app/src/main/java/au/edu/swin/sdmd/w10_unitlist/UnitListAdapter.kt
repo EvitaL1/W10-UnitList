@@ -36,8 +36,8 @@ class UnitListAdapter(private val mUnitList: List<MyUnit>):
             unitItemView.text = item.unit
 
             // TODO() Change your scenario by uncommenting these lines
-            //imageView.setImageBitmap(item.drawIcon()) // ensure item.icon in MyUnit is null
-            imageView.setImageBitmap(item.icon) // ensure item.icon in MyUnit = drawIcon()
+            imageView.setImageBitmap(item.drawIcon()) // ensure item.icon in MyUnit is null
+            //imageView.setImageBitmap(item.icon) // ensure item.icon in MyUnit = drawIcon()
             //imageView.setImageBitmap(
             //    BitmapFactory.decodeResource(
             //        itemView.context.resources, R.drawable.trencher)

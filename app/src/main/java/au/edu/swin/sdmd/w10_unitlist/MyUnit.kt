@@ -6,7 +6,7 @@ import android.graphics.Color
 import android.graphics.Paint
 
 class MyUnit(val unit: String) {
-    var icon: Bitmap? = drawIcon() // this should be null for some scenarios
+    var icon: Bitmap? = null//drawIcon() // this should be null for some scenarios
 
     fun drawIcon(): Bitmap {
         val bgColor = getColor(unit)
