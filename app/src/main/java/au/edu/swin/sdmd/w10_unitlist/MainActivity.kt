@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var mRecyclerView: RecyclerView
     lateinit var mAdapter: UnitListAdapter
     // change the size of your list here
-    private val mWordList: MutableList<MyUnit> = MutableList( 500 ) {
+    private val mWordList: MutableList<MyUnit> = MutableList( 200 ) {
         MyUnit("COS10${it.toString().padStart(3,'0')}")
     }
 
